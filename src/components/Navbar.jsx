@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import logo from "../assets/images/ABC.png";
+import { RiAdminFill } from "react-icons/ri";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -44,6 +45,9 @@ const Navbar = () => {
         </Link>
         <Link to="/blog" className="block md:inline-block mx-4 font-semibold">
           Blog
+        </Link>
+        <Link to="/admin" className="block md:inline-block mx-4 font-semibold">
+          <RiAdminFill className="inline-block" />
         </Link>
       </div>
     </div>
