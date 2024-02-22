@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "../assets/images/ABC.png";
 import { SlSocialInstagram } from "react-icons/sl";
 import { TiSocialTwitter, TiSocialLinkedin } from "react-icons/ti";
 

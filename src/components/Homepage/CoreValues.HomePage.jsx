@@ -52,14 +52,16 @@ const CoreValuesHomePage = () => {
       { threshold: 0.1} // Adjust threshold as needed
     );
 
-    if (sectionRef.current) {
-      observer.observe(sectionRef.current);
+    const currentRef = sectionRef.current;
+
+    if (currentRef) {
+      observer.observe(currentRef);
     }
 
     return () => {
-      if (sectionRef.current) {
+      if (currentRef) {
         // eslint-disable-next-line react-hooks/exhaustive-deps
-        observer.unobserve(sectionRef.current);
+        observer.unobserve(currentRef);
       }
     };
   }, []);
