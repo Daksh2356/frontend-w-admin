@@ -1,0 +1,60 @@
+.card-animation {
+    animation: slideIn 1s forwards;
+  }
+  
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: rotateY(90deg);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(90deg);
+    }
+  }
+
+  .card-animation-2 {
+    animation: slideIn2 1s forwards;
+  }
+  
+  @keyframes slideIn2 {
+    from {
+      opacity: 0;
+      transform: rotateY(270deg)
+    }
+    to {
+      opacity: 1;
+      transform: translateX(270deg);
+    }
+  }
+
+  .card-animation-3 {
+    animation: moveUp 1s forwards;
+  }
+  
+  @keyframes moveUp {
+    from {
+      opacity: 0;
+      transform: translateY(100px); 
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0); 
+    }
+  }
+
+.card-4{
+  animation: flip 4ms forwards;
+}
+
+@keyframes flip {
+  from{
+    opacity: 0;
+    transform: translateX(90deg);
+  }
+  to{
+    opacity: 1;
+    transform: translateX(0deg);
+  }
+}
+  

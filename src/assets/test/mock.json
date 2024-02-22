@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Technology and Solutions",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.  consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.  consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. ",
+    "img": local
+  },
+  {
+    "title": "Products | Delivery | Services",
+    "text": "Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Integer nec odio. Integer nec odio.",
+    "img": "https://shorturl.at/ijJT7"
+  },
+  {
+    "title": "History | Mission | Vision",
+    "text": "Fusce nec tellus sed augue semper porta. uis sem at nibh elementum . Mauris massa.",
+    "img": "https://shorturl.at/kloqz"
+  }
+]
